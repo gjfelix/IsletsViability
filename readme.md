@@ -6,11 +6,53 @@ Gerardo J. Félix-Martínez, Diana Osorio-Londoño and J. Rafael Godínez-Ferná
 
 This repository will include the following files:
 
- - **Model files**:  files containing the implementation of the models of naked and avascular islets.
-    **Naked islets**
-    1. Islet_1_naked.mph
-    2. Islet_2_naked.mph
+ - **Model files**:  files containing the implementation of the models of naked and avascular islets.\
+    
+    - **Naked islets**: Steady-state simulations of naked avascular islets with 1, 6 and 20 mM glucose and peripheral oxygen between 10 and 350 mmHg
+      1. Islet_1_naked.mph
+      2. Islet_2_naked.mph
+      3. Islet_3_naked.mph
+      4. Islet_4_naked.mph
+      5. Islet_5_naked.mph
+      6. Islet_6_naked.mph
+    
+    
+    - **Encapsulated islets**: Simulations of encapsulated islets with 6 mM glucose and peripheral oxygen between 10 and 350 mmHg
+	
+      1. Islet_1_encapsulated_steadystate.mph
+    
+      2. Islet_2_encapsulated_steadystate.mph
+    
+      3. Islet_4_encapsulated_steadystate.mph
+      4. Islet_1_encapsulated_timedependent.mph
+      5. Islet_2_encapsulated_timedependent.mph
+      6. Islet_4_encapsulated_timedependent.mph
+    
  - **Islet architectures**: Architectures obtained from the islet reconstruction process.
- - **Parameter files**: Text file including the values, descriptions and units of the parameters used.
- - **Connectivity files**: Adjacency matrices, cell-to-cell connectivity and segregation files.
+
+    - Islet_1_reconstructed.txt
+    - Islet_2_reconstructed.txt
+    - Islet_3_reconstructed.txt
+    - Islet_4_reconstructed.txt
+    - Islet_5_reconstructed.txt
+    - Islet_6_reconstructed.txt
+
+ - **Connectivity files**: Adjacency matrices for and peripheral oxygen between 10 and 350 mmHg. 
+
+    - Control islets (assuming 100% viability):
+
+        1. Islet_1_control_connectivity_adjacency_matrix.txt
+
+        2. Islet_2_control_connectivity_adjacency_matrix.txt
+        3. Islet_3_control_connectivity_adjacency_matrix.txt
+        4. Islet_4_control_connectivity_adjacency_matrix.txt
+        5. Islet_5_control_connectivity_adjacency_matrix.txt
+        6. Islet_6_control_connectivity_adjacency_matrix.txt
+
+    - Simulated islets (1, 6 and 20 mM glucose and peripheral oxygen between 10 and 350 mmHg). One file per simulated case will be provided with name:
+
+        - Islet_X_G_YmM_po2_Z_connectivity_adjacency_matrix.txt
+
+        Where **X** indicate the islet number (1-6), **Y** the glucose concentration in mM  (1, 6 or 20) and **Z** represents the peripheral oxygen in mmHg (10, 30, 50, 70, 100, 160, 270 or 250).
+
 
