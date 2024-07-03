@@ -6,8 +6,8 @@ Gerardo J. Félix-Martínez, Diana Osorio-Londoño and J. Rafael Godínez-Ferná
 
 This repository will include the following files:
 
- - **Model files**:  files containing the implementation of the models of naked and avascular islets.\
-    
+ - **Model files**:  files containing the implementation of the models of naked and avascular islets. Model files include geometries, parameters, meshes, boundary and initial conditions. Simulations can be directly reproduced by loading the model files into COMSOL.
+   
     - **Naked islets**: Steady-state simulations of naked avascular islets with 1, 6 and 20 mM glucose and peripheral oxygen between 10 and 350 mmHg
       1. Islet_1_naked.mph
       2. Islet_2_naked.mph
@@ -28,7 +28,7 @@ This repository will include the following files:
       5. Islet_2_encapsulated_timedependent.mph
       6. Islet_4_encapsulated_timedependent.mph
     
- - **Islet architectures**: Architectures obtained from the islet reconstruction process.
+ - **Islet architectures**: Architectures obtained from the reconstruction process using IsletLab. Architecture files contain six columns: 1: cell radius, 2: dummy column, 3: cell type (alpha: 11.0, beta: 12.0, delta: 13.0), 4-6: cell center coordinates (x, y and z, respectively).
 
     - Islet_1_reconstructed.txt
     - Islet_2_reconstructed.txt
@@ -54,5 +54,4 @@ This repository will include the following files:
         - Islet_X_G_YmM_po2_Z_connectivity_adjacency_matrix.txt
 
         Where **X** indicate the islet number (1-6), **Y** the glucose concentration in mM  (1, 6 or 20) and **Z** represents the peripheral oxygen in mmHg (10, 30, 50, 70, 100, 160, 270 or 250).
-
 
