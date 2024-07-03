@@ -9,24 +9,24 @@ This repository will include the following files:
  - **Model files**:  files containing the implementation of the models of naked and avascular islets. Model files include geometries, parameters, meshes, boundary and initial conditions. Simulations can be directly reproduced by loading the model files into COMSOL.
    
     - **Naked islets**: Steady-state simulations of naked avascular islets with 1, 6 and 20 mM glucose and peripheral oxygen between 10 and 350 mmHg
-      1. Islet_1_naked.mph
-      2. Islet_2_naked.mph
-      3. Islet_3_naked.mph
-      4. Islet_4_naked.mph
-      5. Islet_5_naked.mph
-      6. Islet_6_naked.mph
+      1. Islet_1_naked.m
+      2. Islet_2_naked.m
+      3. Islet_3_naked.m
+      4. Islet_4_naked.m
+      5. Islet_5_naked.m
+      6. Islet_6_naked.m
     
     
     - **Encapsulated islets**: Simulations of encapsulated islets with 6 mM glucose and peripheral oxygen between 10 and 350 mmHg
 	
-      1. Islet_1_encapsulated_steadystate.mph
+      1. Islet_1_encapsulated_steadystate.m
     
-      2. Islet_2_encapsulated_steadystate.mph
+      2. Islet_2_encapsulated_steadystate.m
     
-      3. Islet_4_encapsulated_steadystate.mph
-      4. Islet_1_encapsulated_timedependent.mph
-      5. Islet_2_encapsulated_timedependent.mph
-      6. Islet_4_encapsulated_timedependent.mph
+      3. Islet_4_encapsulated_steadystate.m
+      4. Islet_1_encapsulated_timedependent.m
+      5. Islet_2_encapsulated_timedependent.m
+      6. Islet_4_encapsulated_timedependent.m
     
  - **Islet architectures**: Architectures obtained from the reconstruction process using IsletLab. Architecture files contain six columns: 1: cell radius, 2: dummy column, 3: cell type (alpha: 11.0, beta: 12.0, delta: 13.0), 4-6: cell center coordinates (x, y and z, respectively).
 
